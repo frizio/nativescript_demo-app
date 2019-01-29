@@ -1,16 +1,3 @@
-/*
-var createViewModel = require("./main-view-model").createViewModel;
-
-function onNavigatingTo(args) {
-    var page = args.object;
-
-    page.bindingContext = createViewModel();
-}
-
-exports.onNavigatingTo = onNavigatingTo;
-*/
-
-
 // Event handler function fired by navigatingTo Page tag attribute
 exports.theFunction = args => {
     console.log("Main event handler function");

@@ -1,7 +1,7 @@
 <Page class="page" navigatingTo="theFunction">
 
     <Page.actionBar>
-        <ActionBar title="Demo App" icon="" class="action-bar">
+        <ActionBar title="The Demo App" icon="" class="action-bar">
         </ActionBar>
     </Page.actionBar>
 

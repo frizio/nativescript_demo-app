@@ -1,4 +1,4 @@
-<Page class="page">
+<Page class="page" navigatingTo="theFunction">
 
     <Page.actionBar>
         <ActionBar title="Demo App" icon="" class="action-bar">
@@ -6,6 +6,6 @@
     </Page.actionBar>
 
     <StackLayout class="p-10">
-        <Label text="Hello world"/>
+        <Label text="{{message}}"/>
     </StackLayout>
 </Page>

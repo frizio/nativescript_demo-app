@@ -8,5 +8,7 @@
     <StackLayout class="p-10">
         <Label text="{{message}}"/>
         <button text="Click me" tap="clickMe"></button>
+        <Label id="aLabel" text="This is a label" 
+               fontSize="72" textWrap="true" textAlignment="center"></Label>
     </StackLayout>
 </Page>

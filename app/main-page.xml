@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+<Page class="page">
 
     <Page.actionBar>
         <ActionBar title="Demo App" icon="" class="action-bar">

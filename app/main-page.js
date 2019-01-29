@@ -14,3 +14,9 @@ exports.theFunction = args => {
     }, 5000);
 
 }
+
+
+exports.clickMe = () => {
+    console.log("Button CLICK ME pressed");
+    alert("Hey!!!");
+}

@@ -7,5 +7,6 @@
 
     <StackLayout class="p-10">
         <Label text="{{message}}"/>
+        <button text="Click me" tap="clickMe"></button>
     </StackLayout>
 </Page>

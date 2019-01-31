@@ -1,18 +1,20 @@
-// Event handler function fired by navigatingTo Page tag attribute
+const { Observable } = require("tns-core-modules/data/observable");
+
 exports.onLoaded = args => {
     console.log("The page is loading");
     const page = args.object;
+
+    // ONE-WAY data binding
+    /*
     page.bindingContext = {
         username: "frizio"
     };
+    */
 
-    let i = 0;
-
-    setInterval(() => {
-        page.bindingContext = {
-            username: `frizio ${i++}`
-        };
-    }, 1000);
+    // TWO-WAY data binding
+    const theModel = new Observable();
+    theModel.set("username", "frizio");
+    page.bindingContext = theModel;
 
 }
 

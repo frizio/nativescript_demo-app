@@ -5,10 +5,12 @@
         </ActionBar>
     </Page.actionBar>
 
-    <StackLayout class="p-10">
-        <Label text="{{message}}"/>
-        <button text="Click me" tap="clickMe"></button>
-        <Label id="aLabel" text="This is a label" 
-               fontSize="72" textWrap="true" textAlignment="center"></Label>
-    </StackLayout>
+    <AbsoluteLayout>
+        <Label text="{{message}}" textWrap="true"/>
+        <button text="Click" tap="clickMe" left="0" top="0"></button>
+        <button text="Click 1" tap="clickMe" left="100" top="100"></button>
+        <button text="Click 2" tap="clickMe" left="100" top="200"></button>
+        <button text="Click 3" tap="clickMe" left="200" top="100"></button>
+        <button text="Click 4" tap="clickMe" left="200" top="200"></button>
+    </AbsoluteLayout>
 </Page>

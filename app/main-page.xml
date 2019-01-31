@@ -5,10 +5,10 @@
         </ActionBar>
     </Page.actionBar>
 
-    <GridLayout backgroundColor="gray" rows="100,*,100" columns="10,*,10" >
-        <Label class="p-5" text="Label 1" textWrap="true" backgroundColor="red" row="0" col="1" />
-        <Label class="p-5" text="Label 2" textWrap="true" backgroundColor="green" row="1" col="1" />
-        <Label class="p-5" text="Label 3" textWrap="true" backgroundColor="magenta" row="2" col="1" />
-    </GridLayout>
+    <FlexboxLayout class="p-10" backgroundColor="#eee" flexDirection="column" justifyContent="center" alignItems="stretch" flexWrap="wrap" >
+        <TextField marginBottom="10"  hint="Enter username" text="{{  }}" />
+        <TextField marginBottom="10"  hint="Enter password" secure="true" text="{{  }}"  />
+        <Button text="Login" tap="" />
+    </FlexboxLayout>
 
 </Page>

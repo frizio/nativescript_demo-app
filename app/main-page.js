@@ -1,4 +1,4 @@
-const { Observable } = require("tns-core-modules/data/observable");
+const { Observable, fromObject } = require("tns-core-modules/data/observable");
 
 exports.onLoaded = args => {
     console.log("The page is loading");
@@ -11,10 +11,19 @@ exports.onLoaded = args => {
     };
     */
 
-    // TWO-WAY data binding
+    // TWO-WAY data binding with Observable
+    /*
     const theModel = new Observable();
     theModel.set("username", "frizio");
     page.bindingContext = theModel;
+    */
+
+    // TWO-WAY data binding with fromObject
+    const theModel = {
+        "username": "frizio"
+    };
+    page.bindingContext = fromObject(theModel);
+    
 
 }
 

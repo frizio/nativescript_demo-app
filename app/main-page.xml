@@ -6,9 +6,9 @@
     </Page.actionBar>
 
     <FlexboxLayout class="p-10" backgroundColor="#eee" flexDirection="column" justifyContent="center" alignItems="stretch" flexWrap="wrap" >
-        <TextField marginBottom="10" hint="Enter the username" text="{{username}}" />
-        <TextField marginBottom="10" hint="Enter the password" secret="true" text="{{password}}" />
-        <Label marginBottom="10" text="{{username}}" textWrap="true" />
+        <TextField marginBottom="10" hint="Enter the username" text="{{user.username}}" />
+        <TextField marginBottom="10" hint="Enter the password" secret="true" text="{{user.password}}" />
+        <Label marginBottom="10" text="{{user.username}}" textWrap="true" />
         <Button text="tap me" tap="onTap" />
     </FlexboxLayout>
 

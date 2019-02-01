@@ -1,26 +1,8 @@
 # NativeScript JavaScript Template
 
-This template creates a "Hello, world" NativeScript app using JavaScript.
+# Demo NativeScript JavaScript App - 
 
-This is the default template, so you can create a new app that uses it with the `--template` option:
+## [Video tutorial by codedamn youtube page](https://www.youtube.com/playlist?list=PLYxzS__5yYQnbduR0rpntEcXIhftdz15n)
 
-```
-tns create my-app-name --template tns-template-hello-world
-```
+This playlist would enable you to create awesome cross platform apps (Android and iOS) using NativeScript (and hence, JavaScript)
 
-Or without it:
-
-```
-tns create my-app-name
-```
-
-> Note: Both commands will create a new NativeScript app that uses the latest version of this template published to [npm] (https://www.npmjs.com/package/tns-template-hello-world).
-
-If you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:
-
-```
-tns create my-app-name --template https://github.com/NativeScript/template-hello-world.git#master
-```
-# Issues
-
-Issues related to `template-hello-world` template should be logged in the https://github.com/NativeScript/NativeScript repository.
